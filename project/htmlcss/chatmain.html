@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>프론트엔드스쿨1기</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5c4379b5e9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="body-chatmain">
+    <header class="status">
+      <div class="status__item">
+        <i class="fab fa-react" style="color: white"></i>
+        <span>FE Zone</span>
+        <i class="fas fa-wifi" style="color: white"></i>
+      </div>
+      <div class="status__item">
+        <span>18:02</span>
+        <i class="fas fa-clock" style="color: white"></i>
+      </div>
+      <div class="status__item">
+        <span>100%</span>
+        <i class="fas fa-battery-full" style="color: white"></i>
+        <i class="fas fa-bolt" style="color: white"></i>
+      </div>
+    </header>
+
+    <nav id="navbar__chatmain">
+      <h1>채팅</h1>
+      <div class="navbar__icon">
+        <i class="fas fa-search"></i>
+        <i class="far fa-comment-dots"></i>
+        <i class="fas fa-music"></i>
+        <i class="fas fa-user-cog"></i>
+      </div>
+    </nav>
+
+    <section id="chatbanner">
+      <div class="chatbanner__description">
+        <img class="chatbanner__icon" src="img/lion.png" alt="배너" />
+        <div class="chatbanner__text">
+          <a
+            href="https://k-digital.likelion.net/frontend-school"
+            target="_blank"
+            class="chatbanner__title"
+            >FRONT-END<br />SCHOOL</a
+          >
+          <span class="chatbanner__time"
+            >2021년 10월 29일(금) - 2022년 1월 27일(목)</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="chatitem">
+      <div class="chatitem__human">
+        <div class="chatitem__photo">
+          <img class="chatitem__anileft" src="img/front.png" alt="프로필" />
+        </div>
+        <div class="chatitem__description">
+          <span style="text-shadow: 1px 1px 15px var(--react-color)"
+            >프론트엔드 스쿨 1기🧑‍💻👩‍💻</span
+          >
+          <a href="chatfinal.html">앞으로 더 좋은 기회가 있을거라...</a>
+          <!-- <span>앞으로 더 좋은 기회가 있을거라...</span> -->
+        </div>
+        <div class="chatitem__description--right">
+          <span style="text-shadow: 1px 1px 15px var(--react-color)"
+            >오후 18:02</span
+          >
+          <div class="chatitem__count">
+            <p>1</p>
+          </div>
+        </div>
+      </div>
+      <div class="chatitem__human">
+        <div class="chatitem__photo">
+          <img id="react" src="img/react.png" alt="프로필" />
+        </div>
+        <div class="chatitem__description">
+          <span>React</span>
+          <span>응 ㅜㅜ 그치.. 제발 붙었으면 좋겠다 ㅜ</span>
+        </div>
+        <div id="chatitem__description--react">
+          <span>오후 18:02</span>
+          <div class="chatitem__count">
+            <p>1</p>
+          </div>
+        </div>
+      </div>
+      <div class="chatitem__human">
+        <div class="chatitem__photo">
+          <img id="db" src="img/db.png" alt="프로필" />
+        </div>
+        <div class="chatitem__description">
+          <span>MongoDB MySQL</span>
+          <span>합격한거지???</span>
+        </div>
+        <div id="chatitem__description--db">
+          <span>오후 18:02</span>
+          <div class="chatitem__count">
+            <p>1</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chatitem__human">
+      <div class="chatitem__photo">
+        <img id="html" src="img/html.png" alt="프로필" />
+      </div>
+      <div class="chatitem__description">
+        <span>HTML</span>
+        <span>결과 나왔어?????</span>
+      </div>
+      <div id="chatitem__description--html">
+        <span>오후 18:01</span>
+        <div class="chatitem__count">
+          <p>1</p>
+        </div>
+      </div>
+    </div>
+    <div class="chatitem__human">
+      <div class="chatitem__photo">
+        <img id="css" src="img/css.png" alt="프로필" />
+      </div>
+      <div class="chatitem__description">
+        <span>CSS</span>
+        <span>그러니까 ㅋㅋㅋ.. 내가 더 떨린다 ㅋㅋ</span>
+      </div>
+      <div id="chatitem__description--css">
+        <span>오후 18:00</span>
+        <div class="chatitem__count">
+          <p>1</p>
+        </div>
+      </div>
+    </div>
+    <div class="chatitem__human">
+      <div class="chatitem__photo">
+        <img id="javascript" src="img/js.png" alt="프로필" />
+      </div>
+      <div class="chatitem__description">
+        <span>JavaScript</span>
+        <span>이제 자바스크립트 제대로 배워보는거야??</span>
+      </div>
+      <div id="chatitem__description--js">
+        <span>오후 18:00</span>
+        <div class="chatitem__count">
+          <p>1</p>
+        </div>
+      </div>
+    </div>
+    <div class="chatitem__human">
+      <div class="chatitem__photo">
+        <img id="server" src="img/server.png" alt="프로필" />
+      </div>
+      <div class="chatitem__description">
+        <span>Node Express</span>
+        <span>18시!!!!!</span>
+      </div>
+      <div id="chatitem__description--server">
+        <span>오후 18:00</span>
+        <div class="chatitem__count">
+          <p>1</p>
+        </div>
+      </div>
+    </div>
+    <div class="chatitem__human">
+      <div class="chatitem__photo">
+        <img id="family" src="img/family.png" alt="가족" />
+      </div>
+      <div class="chatitem__description">
+        <span>가족</span>
+        <span>결과는 나왔니? 결과가 어떻든 너의 길을...</span>
+      </div>
+      <div id="chatitem__description--family">
+        <span>오후 17:59</span>
+        <div class="chatitem__count">
+          <p>1</p>
+        </div>
+      </div>
+    </div>
+    <hr class="profile__border--final" />
+    <footer class="footer">
+      <div class="footer__item">
+        <a href="profile.html">
+          <i id="chatfooter__back" class="fas fa-hand-point-left"></i>
+        </a>
+        <i id="chatfooter__user" class="fas fa-user"></i>
+        <i id="chatfooter__chat" class="fas fa-comment"></i>
+        <div class="footer__message">8</div>
+        <div class="footer__text">
+          <span>📞02-6203-1222</span>
+          <sapn>⏰11:00 - 19:00 | off-time 12:00 - 13:00</sapn>
+          <span>🦁works@likelion.net</span>
+        </div>
+      </div>
+    </footer>
+
+    <div id="mobile">
+      <span
+        >화면이 너무 커요😥<br />
+        조금만 줄여볼까요?🦁</span
+      >
+    </div>
+    <div class="splash">
+      <img class="splash__lion" src="img/lion.png" alt="프로필" />
+    </div>
+  </body>
+</html>
