@@ -1,12 +1,12 @@
 # TIL(Today I Learned)
 
-## SDET 성장 과정 및 커리어에 필요한 학습 과정을 기록한다.
+## SDET 성장 과정과 학습 내용을 기록한다.
 
 ## 규칙 목적 목표
 1. 정규 시간 이후 1일 최소 2시간 기술 학습한다.
 - (1순위)주말 사이드 프로젝트 진행에 필요한 언어 문법과 프레임워크
 - (2순위)컴퓨터공학
-2. 주말에는 테스트 자동화 사이드 프로젝트 및 블로깅에 집중한다.
+2. 주말에는 테스트 자동화 사이드 프로젝트 및 결과물이 담긴 회고 블로깅에 집중한다.
 3. 성장 속도를 타인과 비교하지 않는다.
 4. 회고 성격이 강한 내용 정리는 [개인 기술 블로그](https://brunch.co.kr/@jiwonleeqa)에 정리한다.
 5. 품질에 집중하는 SW Engineer로 성장하는 것에 의의를 둔다.
@@ -16,6 +16,11 @@
 9. 꾸준함을 목표로 한다. 
 
 ## 기술 스택
+### SW 품질
+- ISO/IEC 29119
+- ISO/IEC 9126 & 25010
+- ISTQB
+- CSTS
 ### 프로그래밍 언어
 #### Main
 - Java
@@ -31,20 +36,22 @@
 - 네트워크
 - 데이터베이스
 - 자료구조 & 알고리즘
-### E2E 테스트 프레임워크
+### 테스트 프레임워크
 #### Main
 - Selenium(Web)
 - Appium(Mobile)
 #### Sub
 - WebdriverIO(Web, Mobile)
-- Pytest
 - Cypress(Web)
 - Espresso(Android Only)
 - XCUItest(iOS Only)
+- Pytest
 ### BDD 프레임워크
 #### Main
 - Cucumber
+#### Sub
 - Behave
+- pytest-bdd
 ### 인프라
 - Jenkins
 - Docker
@@ -58,8 +65,11 @@
 - VScode
 - Eclipse
 - Intellij
+- Pycharm
 - Android Studio
 - Xcode
 - Git
 - Linux 
+
+
 
