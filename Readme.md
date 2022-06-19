@@ -37,12 +37,14 @@
 - Appium(Mobile)
 #### Sub
 - WebdriverIO(Web, Mobile)
+- Pytest
 - Cypress(Web)
 - Espresso(Android Only)
 - XCUItest(iOS Only)
 ### BDD 프레임워크
 #### Main
 - Cucumber
+- Behave
 ### 인프라
 - Jenkins
 - Docker
